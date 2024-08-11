@@ -75,7 +75,7 @@ export function Accueil() {
                   <SelectItem value="STMG">Sciences et Technologies du Management et de la Gestion (STMG)</SelectItem>
                   <SelectItem value="ST2S">Sciences et Technologies de la Santé et du Social (ST2S)</SelectItem>
                   <SelectItem value="STI2D">
-                    Sciences et Technologies de l'Industrie et du Développement Durable (STI2D)
+                    Sciences et Technologies de l&apos;Industrie et du Développement Durable (STI2D)
                   </SelectItem>
                 </SelectContent>
               </Select>
@@ -203,14 +203,14 @@ export function Accueil() {
                 <p className="text-muted-foreground">
                   Pour réussir dans la filière médecine, il est important de travailler régulièrement les matières
                   scientifiques comme la biologie, les mathématiques et la chimie. Préparez-vous également aux concours
-                  d'entrée en médecine et en pharmacie.
+                  d&apos;entrée en médecine et en pharmacie.
                 </p>
               </div>
               <div className="grid gap-2">
                 <h3 className="text-xl font-bold">Compétences requises</h3>
                 <ul className="grid gap-2 text-muted-foreground">
-                  <li>Excellentes capacités d'analyse et de synthèse</li>
-                  <li>Rigueur et sens de l'organisation</li>
+                  <li>Excellentes capacités d&apos;analyse et de synthèse</li>
+                  <li>Rigueur et sens de l&apos;organisation</li>
                   <li>Empathie et communication</li>
                   <li>Capacité à travailler sous pression</li>
                   <li>Curiosité intellectuelle</li>
@@ -231,7 +231,7 @@ export function Accueil() {
         </section>
         <section className="max-w-4xl mx-auto grid gap-6">
           <div className="space-y-2">
-            <h2 className="text-2xl font-bold">Besoin d'aide pour votre orientation ?</h2>
+            <h2 className="text-2xl font-bold">Besoin d&apos;aide pour votre orientation ?</h2>
             <p className="text-muted-foreground">
               Discutez avec notre assistant virtuel pour trouver la filière qui vous correspond.
             </p>
@@ -251,7 +251,7 @@ export function Accueil() {
                       <div className="prose text-muted-foreground">
                         <p>
                           Bonjour ! Je suis là pour vous aider à trouver la filière qui vous correspond le mieux.
-                          N'hésitez pas à me poser vos questions, je ferai de mon mieux pour vous guider.
+                          N&apos;hésitez pas à me poser vos questions, je ferai de mon mieux pour vous guider.
                         </p>
                       </div>
                     </div>
