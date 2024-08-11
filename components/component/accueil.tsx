@@ -222,7 +222,7 @@ export function Accueil() {
                   <li>Licence de Sciences de la Vie</li>
                   <li>Études de médecine (7 ans)</li>
                   <li>Études de pharmacie (6 ans)</li>
-                  <li>Études d'infirmier (3 ans)</li>
+                  <li>Études d&apos;infirmier (3 ans)</li>
                 </ul>
               </div>
             </div>
