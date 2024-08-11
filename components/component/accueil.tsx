@@ -30,7 +30,7 @@ export function Accueil() {
     <div className="flex flex-col min-h-screen bg-muted/40">
       <header className="bg-background border-b px-4 md:px-6 flex items-center justify-between h-16 shrink-0">
         <Link href="#" className="flex items-center gap-2 text-lg font-semibold" prefetch={false}>
-          <FrameIcon className="w-6 h-6" />
+          <FrameIcon  />
           <span>Orientation Bacheliers</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
@@ -51,7 +51,7 @@ export function Accueil() {
           </Link>
         </nav>
         <Button variant="outline" size="sm" className="md:hidden">
-          <MenuIcon className="w-5 h-5" />
+          <MenuIcon  />
           <span className="sr-only">Toggle menu</span>
         </Button>
       </header>
@@ -98,7 +98,7 @@ export function Accueil() {
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <ChevronRightIcon className="w-5 h-5" />
+                <ChevronRightIcon  />
                 <Link href="#" className="font-medium hover:underline" prefetch={false}>
                   En savoir plus
                 </Link>
@@ -112,7 +112,7 @@ export function Accueil() {
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <ChevronRightIcon className="w-5 h-5" />
+                <ChevronRightIcon  />
                 <Link href="#" className="font-medium hover:underline" prefetch={false}>
                   En savoir plus
                 </Link>
@@ -124,7 +124,7 @@ export function Accueil() {
                 <p className="text-muted-foreground">Médecin, Pharmacien, Infirmier, Chercheur en biologie</p>
               </div>
               <div className="flex items-center gap-2">
-                <ChevronRightIcon className="w-5 h-5" />
+                <ChevronRightIcon  />
                 <Link href="#" className="font-medium hover:underline" prefetch={false}>
                   En savoir plus
                 </Link>
@@ -138,7 +138,7 @@ export function Accueil() {
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <ChevronRightIcon className="w-5 h-5" />
+                <ChevronRightIcon  />
                 <Link href="#" className="font-medium hover:underline" prefetch={false}>
                   En savoir plus
                 </Link>
@@ -152,7 +152,7 @@ export function Accueil() {
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <ChevronRightIcon className="w-5 h-5" />
+                <ChevronRightIcon  />
                 <Link href="#" className="font-medium hover:underline" prefetch={false}>
                   En savoir plus
                 </Link>
@@ -164,7 +164,7 @@ export function Accueil() {
                 <p className="text-muted-foreground">Ingénieur environnement, Géologue, Météorologue, Écologue</p>
               </div>
               <div className="flex items-center gap-2">
-                <ChevronRightIcon className="w-5 h-5" />
+                <ChevronRightIcon  />
                 <Link href="#" className="font-medium hover:underline" prefetch={false}>
                   En savoir plus
                 </Link>
@@ -264,7 +264,7 @@ export function Accueil() {
                     className="min-h-[48px] rounded-2xl resize-none p-4 border border-neutral-400 shadow-sm pr-16"
                   />
                   <Button type="submit" size="icon" className="w-8 h-8 bg-[#FEB415]">
-                    <ArrowUpIcon className="w-4 h-4 " />
+                    <ArrowUpIcon/>
                     <span className="sr-only">Envoyer</span>
                   </Button>
                 </div>
@@ -288,10 +288,9 @@ export function Accueil() {
   )
 }
 
-function ArrowUpIcon(props) {
+function ArrowUpIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -309,10 +308,9 @@ function ArrowUpIcon(props) {
 }
 
 
-function ChevronRightIcon(props) {
+function ChevronRightIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -329,10 +327,9 @@ function ChevronRightIcon(props) {
 }
 
 
-function FrameIcon(props) {
+function FrameIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -352,10 +349,9 @@ function FrameIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon() {
   return (
     <svg
-      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
