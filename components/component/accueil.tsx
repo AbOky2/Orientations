@@ -64,7 +64,7 @@ export function Accueil() {
           <Card className="bg-background p-6 grid gap-6">
             <div className="grid gap-2">
               <Label htmlFor="serie">Série du baccalauréat</Label>
-              <Select id="serie">
+              <Select>
                 <SelectTrigger>
                   <SelectValue placeholder="Sélectionnez votre série" />
                 </SelectTrigger>
